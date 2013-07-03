@@ -1,0 +1,9 @@
+
+= geoip-c Ruby Bindings via FFI
+
+== Requirements
+
+== License
+
+This gem is licensed under an MIT-style license. See the +MIT-LICENSE+ file for
+details.
