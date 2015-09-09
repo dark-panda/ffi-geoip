@@ -3,6 +3,19 @@
 
 == Requirements
 
+* the ffi extension for Ruby.
+* the GeoIP library version 1.5 or higher. Lower versions may work to some
+  extent but this is untested.
+
+== Features
+
+ffi-geoip is an FFI-based implementation of the native GeoIP Ruby bindings.
+This gem mimics the native GeoIP bindings as closely as possible and should be
+directly compatible. To test this, you can run the tests using the native
+bindings via the `USE_BINARY` environment variable and they should also
+succeed. A simple use-case for this extension is for, say, JRuby, where the
+native GeoIP gem is not available.
+
 == License
 
 This gem is licensed under an MIT-style license. See the +MIT-LICENSE+ file for
