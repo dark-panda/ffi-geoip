@@ -3,7 +3,7 @@
 $: << File.dirname(__FILE__)
 require 'test_helper'
 
-class GeoIPISPTest < MiniTest::Unit::TestCase
+class GeoIPISPTest < Minitest::Test
   ISP = {
     :isp => "AT&T Services"
   }

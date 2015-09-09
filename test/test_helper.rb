@@ -38,7 +38,7 @@ if RUBY_VERSION >= '1.9'
   MiniTest::Reporters.use!(MiniTest::Reporters::SpecReporter.new)
 end
 
-class MiniTest::Unit::TestCase
+class Minitest::Test
   def assert_look_up(db, addr, field, value)
     h = db.look_up(addr)
     assert_equal value, h[field]

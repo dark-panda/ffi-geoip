@@ -3,7 +3,7 @@
 $: << File.dirname(__FILE__)
 require 'test_helper'
 
-class GeoIPTest < MiniTest::Unit::TestCase
+class GeoIPTest < Minitest::Test
   def setup
     @ip = "24.24.24.24"
     @ipnum = 16777216 * 24 + 65536 * 24 + 256 * 24 + 24

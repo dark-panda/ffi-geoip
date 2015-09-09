@@ -3,7 +3,7 @@
 $: << File.dirname(__FILE__)
 require 'test_helper'
 
-class GeoIPCountryTest < MiniTest::Unit::TestCase
+class GeoIPCountryTest < Minitest::Test
   UNITED_STATES = {
     :country_code => "US",
     :country_code3 => "USA",

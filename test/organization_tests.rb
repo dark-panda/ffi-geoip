@@ -3,7 +3,7 @@
 $: << File.dirname(__FILE__)
 require 'test_helper'
 
-class GeoIPOrganizationTest < MiniTest::Unit::TestCase
+class GeoIPOrganizationTest < MiniTest::Test
   ORGANIZATION = {
     :name => "AT&T Worldnet Services"
   }
