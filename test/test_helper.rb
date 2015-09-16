@@ -35,7 +35,7 @@ ISP_DB = ENV.fetch('ISP',  File.join(DATA_DIR, 'GeoIPISP.dat'))
 ORG_DB = ENV.fetch('ORG',  File.join(DATA_DIR, 'GeoIPOrg.dat'))
 
 if RUBY_VERSION >= '1.9'
-  MiniTest::Reporters.use!(MiniTest::Reporters::SpecReporter.new)
+  Minitest::Reporters.use!(MiniTest::Reporters::SpecReporter.new)
 end
 
 class Minitest::Test
