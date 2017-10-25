@@ -37,7 +37,7 @@ DOMAIN_DB = ENV.fetch('DOMAIN',  File.join(DATA_DIR, 'GeoIPDomain.dat'))
 NETSPEED_DB = ENV.fetch('NETSPEED',  File.join(DATA_DIR, 'GeoIPNetSpeedCell.dat'))
 
 if RUBY_VERSION >= '1.9'
-  Minitest::Reporters.use!(MiniTest::Reporters::SpecReporter.new)
+  Minitest::Reporters.use!(Minitest::Reporters::SpecReporter.new)
 end
 
 class Minitest::Test

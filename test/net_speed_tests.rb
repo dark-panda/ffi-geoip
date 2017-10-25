@@ -3,7 +3,7 @@
 $: << File.dirname(__FILE__)
 require 'test_helper'
 
-class GeoIPNetSpeedTest < MiniTest::Test
+class GeoIPNetSpeedTest < Minitest::Test
   DOMAIN = {
     :netspeed => "Corporate"
   }
