@@ -23,7 +23,7 @@ module GeoIP
     File.join(GEOIP_BASE, 'isp')
 
   autoload :NetSpeed,
-    File.join(GEOIP_BASE, 'netspeed')
+    File.join(GEOIP_BASE, 'net_speed')
 
   autoload :Domain,
     File.join(GEOIP_BASE, 'domain')

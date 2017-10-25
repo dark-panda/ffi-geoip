@@ -33,6 +33,7 @@ COUNTRY_DB = ENV.fetch('COUNTRY', File.join(DATA_DIR, 'GeoIP.dat'))
 CITY_DB = ENV.fetch('CITY', File.join(DATA_DIR, 'GeoIPCity.dat'))
 ISP_DB = ENV.fetch('ISP',  File.join(DATA_DIR, 'GeoIPISP.dat'))
 ORG_DB = ENV.fetch('ORG',  File.join(DATA_DIR, 'GeoIPOrg.dat'))
+NETSPEED_DB = ENV.fetch('NETSPEED',  File.join(DATA_DIR, 'GeoIPNetSpeedCell.dat'))
 
 if RUBY_VERSION >= '1.9'
   Minitest::Reporters.use!(MiniTest::Reporters::SpecReporter.new)
