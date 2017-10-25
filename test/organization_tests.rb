@@ -17,12 +17,6 @@ class GeoIPOrganizationTest < Minitest::Test
   end
 
   def test_construction_default
-    db = GeoIP::ISP.new(ISP_DB)
-    assert_raises_type_error(db)
-    assert_look_up(db)
-  end
-
-  def test_construction_default
     db = GeoIP::Organization.new(ORG_DB)
     assert_raises_type_error(db)
     assert_look_up(db)
